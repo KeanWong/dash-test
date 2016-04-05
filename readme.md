@@ -20,7 +20,7 @@ Setting Up Your Dash
 ---
 Follow the instructions from Amazon on how to pair the Dash **but when it asks you to choose a product, do NOT choose a product to order.**
 
-(On iOS) I was getting spammed by Amazon that my Dash wasn't completely set up whenever I pushed the Dash button, so an onfortunate side effect of this hack is that I had to turn off iOS notifications for the Amazon app to prevent getting spammed _every single time the button was pressed_.  ()Amazon - it'd be great if you allowed hackers to turn that off in some preference...)
+(On iOS) I was getting spammed by Amazon that my Dash wasn't completely set up whenever I pushed the Dash button, so an onfortunate side effect of this hack is that I had to turn off iOS notifications for the Amazon app to prevent getting spammed _every single time the button was pressed_.  (Amazon - it'd be great if you allowed hackers to turn that off in some preference...)
 
 Detecting Button Presses
 ---
