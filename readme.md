@@ -20,5 +20,15 @@ Setting Up Your Dash
 ---
 Follow the instructions from Amazon on how to pair the Dash **but when it asks you to choose a product, do NOT choose a product to order.**
 
-(On iOS) I was getting spammed by Amazon that my Dash wasn't completely set up whenever I pushed the Dash button, so an onfortunate side effect of this hack is that I had to turn off iOS notifications for the Amazon app to prevent getting spammed _every single time the button was pressed_.  Amazon - it'd be great if you allowed hackers to turn that off in some preference...
+(On iOS) I was getting spammed by Amazon that my Dash wasn't completely set up whenever I pushed the Dash button, so an onfortunate side effect of this hack is that I had to turn off iOS notifications for the Amazon app to prevent getting spammed _every single time the button was pressed_.  ()Amazon - it'd be great if you allowed hackers to turn that off in some preference...)
 
+Detecting Button Presses
+---
+1. Install _scapy_. This varies by platform, so do a Google search, or start on [this page](http://www.secdev.org/projects/scapy/doc/installation.html/ "Installing scapy").
+2. Install the other python requriements by running `pip install -r requriements.txt`
+3. Find out the ethernet MAC address of your Dash by looking at your Wifi router's logs after pressing the Dash's button.  The ethernet MAC address will be a number that looks something like _74:c2:46:4a:52:af_.
+4. Edit test.py to modify the MAC address in the _mac_to_action_ dictionary (on line 21) to be the MAC address of your Dash button.  It **must** be lowercase.
+5. Run the script by executing `python ./test.py`
+6. After the script is running and says "Waiting for a button press...", press the Dash's button.
+7. You should see the console print out "Dash button pressed at \<the current time>".
+8. CTRL-C exits the program.
